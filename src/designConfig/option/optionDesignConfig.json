@@ -1,0 +1,82 @@
+{
+  "OutlinedPrimary": {
+    "variant": "outlined",
+    "color": "primary"
+  },
+  "OutlinedSuccess": {
+    "variant": "outlined",
+    "color": "success"
+  },
+  "OutlinedInfo": {
+    "variant": "outlined",
+    "color": "info"
+  },
+  "OutlinedWarning": {
+    "variant": "outlined",
+    "color": "warning"
+  },
+  "OutlinedDanger": {
+    "variant": "outlined",
+    "color": "danger"
+  },
+  "SolidPrimary": {
+    "variant": "solid",
+    "color": "primary"
+  },
+  "SolidSuccess": {
+    "variant": "solid",
+    "color": "success"
+  },
+  "SolidInfo": {
+    "variant": "solid",
+    "color": "info"
+  },
+  "SolidWarning": {
+    "variant": "solid",
+    "color": "warning"
+  },
+  "SolidDanger": {
+    "variant": "solid",
+    "color": "danger"
+  },
+  "PlainPrimary": {
+    "variant": "plain",
+    "color": "primary"
+  },
+  "PlainSuccess": {
+    "variant": "plain",
+    "color": "success"
+  },
+  "PlainInfo": {
+    "variant": "plain",
+    "color": "info"
+  },
+  "PlainWarning": {
+    "variant": "plain",
+    "color": "warning"
+  },
+  "PlainDanger": {
+    "variant": "plain",
+    "color": "danger"
+  },
+  "SoftPrimary": {
+    "variant": "soft",
+    "color": "primary"
+  },
+  "SoftSuccess": {
+    "variant": "soft",
+    "color": "success"
+  },
+  "SoftInfo": {
+    "variant": "soft",
+    "color": "info"
+  },
+  "SoftWarning": {
+    "variant": "soft",
+    "color": "warning"
+  },
+  "SoftDanger": {
+    "variant": "soft",
+    "color": "danger"
+  }
+}

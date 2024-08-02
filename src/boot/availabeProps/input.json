@@ -1,0 +1,8 @@
+
+{
+     "input": {
+      "color": ["primary", "success", "info", "warning", "danger"],
+      "size": ["sm", "md", "lg"],
+      "variant": ["outlined", "solid", "plain", "soft"]
+    }
+}

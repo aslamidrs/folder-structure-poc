@@ -1,0 +1,6 @@
+{
+    "option": {
+      "variant": ["outlined", "solid", "plain", "soft"],
+      "color": ["primary", "success", "info", "warning", "danger"]
+    }
+}

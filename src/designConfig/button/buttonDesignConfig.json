@@ -1,0 +1,302 @@
+{
+  "OutlinedSmPrimary": {
+    "variant": "outlined",
+    "size": "sm",
+    "color": "primary"
+  },
+  "OutlinedSmSuccess": {
+    "variant": "outlined",
+    "size": "sm",
+    "color": "success"
+  },
+  "OutlinedSmInfo": {
+    "variant": "outlined",
+    "size": "sm",
+    "color": "info"
+  },
+  "OutlinedSmWarning": {
+    "variant": "outlined",
+    "size": "sm",
+    "color": "warning"
+  },
+  "OutlinedSmDanger": {
+    "variant": "outlined",
+    "size": "sm",
+    "color": "danger"
+  },
+  "OutlinedMdPrimary": {
+    "variant": "outlined",
+    "size": "md",
+    "color": "primary"
+  },
+  "OutlinedMdSuccess": {
+    "variant": "outlined",
+    "size": "md",
+    "color": "success"
+  },
+  "OutlinedMdInfo": {
+    "variant": "outlined",
+    "size": "md",
+    "color": "info"
+  },
+  "OutlinedMdWarning": {
+    "variant": "outlined",
+    "size": "md",
+    "color": "warning"
+  },
+  "OutlinedMdDanger": {
+    "variant": "outlined",
+    "size": "md",
+    "color": "danger"
+  },
+  "OutlinedLgPrimary": {
+    "variant": "outlined",
+    "size": "lg",
+    "color": "primary"
+  },
+  "OutlinedLgSuccess": {
+    "variant": "outlined",
+    "size": "lg",
+    "color": "success"
+  },
+  "OutlinedLgInfo": {
+    "variant": "outlined",
+    "size": "lg",
+    "color": "info"
+  },
+  "OutlinedLgWarning": {
+    "variant": "outlined",
+    "size": "lg",
+    "color": "warning"
+  },
+  "OutlinedLgDanger": {
+    "variant": "outlined",
+    "size": "lg",
+    "color": "danger"
+  },
+  "SolidSmPrimary": {
+    "variant": "solid",
+    "size": "sm",
+    "color": "primary"
+  },
+  "SolidSmSuccess": {
+    "variant": "solid",
+    "size": "sm",
+    "color": "success"
+  },
+  "SolidSmInfo": {
+    "variant": "solid",
+    "size": "sm",
+    "color": "info"
+  },
+  "SolidSmWarning": {
+    "variant": "solid",
+    "size": "sm",
+    "color": "warning"
+  },
+  "SolidSmDanger": {
+    "variant": "solid",
+    "size": "sm",
+    "color": "danger"
+  },
+  "SolidMdPrimary": {
+    "variant": "solid",
+    "size": "md",
+    "color": "primary"
+  },
+  "SolidMdSuccess": {
+    "variant": "solid",
+    "size": "md",
+    "color": "success"
+  },
+  "SolidMdInfo": {
+    "variant": "solid",
+    "size": "md",
+    "color": "info"
+  },
+  "SolidMdWarning": {
+    "variant": "solid",
+    "size": "md",
+    "color": "warning"
+  },
+  "SolidMdDanger": {
+    "variant": "solid",
+    "size": "md",
+    "color": "danger"
+  },
+  "SolidLgPrimary": {
+    "variant": "solid",
+    "size": "lg",
+    "color": "primary"
+  },
+  "SolidLgSuccess": {
+    "variant": "solid",
+    "size": "lg",
+    "color": "success"
+  },
+  "SolidLgInfo": {
+    "variant": "solid",
+    "size": "lg",
+    "color": "info"
+  },
+  "SolidLgWarning": {
+    "variant": "solid",
+    "size": "lg",
+    "color": "warning"
+  },
+  "SolidLgDanger": {
+    "variant": "solid",
+    "size": "lg",
+    "color": "danger"
+  },
+  "PlainSmPrimary": {
+    "variant": "plain",
+    "size": "sm",
+    "color": "primary"
+  },
+  "PlainSmSuccess": {
+    "variant": "plain",
+    "size": "sm",
+    "color": "success"
+  },
+  "PlainSmInfo": {
+    "variant": "plain",
+    "size": "sm",
+    "color": "info"
+  },
+  "PlainSmWarning": {
+    "variant": "plain",
+    "size": "sm",
+    "color": "warning"
+  },
+  "PlainSmDanger": {
+    "variant": "plain",
+    "size": "sm",
+    "color": "danger"
+  },
+  "PlainMdPrimary": {
+    "variant": "plain",
+    "size": "md",
+    "color": "primary"
+  },
+  "PlainMdSuccess": {
+    "variant": "plain",
+    "size": "md",
+    "color": "success"
+  },
+  "PlainMdInfo": {
+    "variant": "plain",
+    "size": "md",
+    "color": "info"
+  },
+  "PlainMdWarning": {
+    "variant": "plain",
+    "size": "md",
+    "color": "warning"
+  },
+  "PlainMdDanger": {
+    "variant": "plain",
+    "size": "md",
+    "color": "danger"
+  },
+  "PlainLgPrimary": {
+    "variant": "plain",
+    "size": "lg",
+    "color": "primary"
+  },
+  "PlainLgSuccess": {
+    "variant": "plain",
+    "size": "lg",
+    "color": "success"
+  },
+  "PlainLgInfo": {
+    "variant": "plain",
+    "size": "lg",
+    "color": "info"
+  },
+  "PlainLgWarning": {
+    "variant": "plain",
+    "size": "lg",
+    "color": "warning"
+  },
+  "PlainLgDanger": {
+    "variant": "plain",
+    "size": "lg",
+    "color": "danger"
+  },
+  "SoftSmPrimary": {
+    "variant": "soft",
+    "size": "sm",
+    "color": "primary"
+  },
+  "SoftSmSuccess": {
+    "variant": "soft",
+    "size": "sm",
+    "color": "success"
+  },
+  "SoftSmInfo": {
+    "variant": "soft",
+    "size": "sm",
+    "color": "info"
+  },
+  "SoftSmWarning": {
+    "variant": "soft",
+    "size": "sm",
+    "color": "warning"
+  },
+  "SoftSmDanger": {
+    "variant": "soft",
+    "size": "sm",
+    "color": "danger"
+  },
+  "SoftMdPrimary": {
+    "variant": "soft",
+    "size": "md",
+    "color": "primary"
+  },
+  "SoftMdSuccess": {
+    "variant": "soft",
+    "size": "md",
+    "color": "success"
+  },
+  "SoftMdInfo": {
+    "variant": "soft",
+    "size": "md",
+    "color": "info"
+  },
+  "SoftMdWarning": {
+    "variant": "soft",
+    "size": "md",
+    "color": "warning"
+  },
+  "SoftMdDanger": {
+    "variant": "soft",
+    "size": "md",
+    "color": "danger"
+  },
+  "SoftLgPrimary": {
+    "variant": "soft",
+    "size": "lg",
+    "color": "primary"
+  },
+  "SoftLgSuccess": {
+    "variant": "soft",
+    "size": "lg",
+    "color": "success"
+  },
+  "SoftLgInfo": {
+    "variant": "soft",
+    "size": "lg",
+    "color": "info"
+  },
+  "SoftLgWarning": {
+    "variant": "soft",
+    "size": "lg",
+    "color": "warning"
+  },
+  "SoftLgDanger": {
+    "variant": "soft",
+    "size": "lg",
+    "color": "danger"
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "button": {
+      "variant": ["outlined", "solid", "plain", "soft"],
+      "size": ["sm", "md", "lg"],
+      "color": ["primary", "success", "info", "warning", "danger"]
+    }
+}
