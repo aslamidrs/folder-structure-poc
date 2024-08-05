@@ -10,8 +10,8 @@ interface tab {
 }
 interface TabNavigationProps {
   currentTab: string;
-  onTabChange: (tab: any) => void;
   tabs: tab[];
+  onTabChange: (event: React.SyntheticEvent, value: string | null) => void;
 }
 
 const TabNavigation: React.FC<TabNavigationProps> = ({

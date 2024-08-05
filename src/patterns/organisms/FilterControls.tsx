@@ -3,9 +3,10 @@ import { Row, Option } from "../atoms";
 import { Select } from "../molecules";
 interface FilterControlsProps {
   filters: {
-    onStateChange: (state: any) => void;
+    onChange: (state: any) => void;
     placeholder: string;
     options: { value: string; label: string }[];
+    value: string;
   }[];
 }
 
@@ -15,11 +16,12 @@ const FilterControls: React.FC<FilterControlsProps> = ({ filters }) => {
       {filters.map((filter: any) => (
         <Select
           configurationName="OutlinedMdPrimary"
-          onChange={(e, value) => filter.onStateChange(value)}
+          onChange={(e, value) => filter.onChange(value)}
           placeholder={filter.placeholder}
           //   startDecorator={< />}
           endDecorator={filter.endDecorator}
           sx={{ width: filter.width || "auto" }}
+          value={filter.value}
         >
           {filter.options.map((option: { value: string; label: string }) => (
             <Option

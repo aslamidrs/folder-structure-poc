@@ -2,10 +2,11 @@ import React from "react";
 import { Button, Input, Row, Text } from "../atoms";
 import { Breadcrumbs } from "../molecules";
 interface SearchAndActionsProps {
-  onSearch: (query: string) => void;
+  onSearch: (e: React.ChangeEvent<HTMLInputElement>) => void;
   onDownload: () => void;
   searchPlaceholder: string;
   breadcrumbs: { id: number; label: string }[];
+  searchValue: string;
 }
 
 const SearchAndActions: React.FC<SearchAndActionsProps> = ({
@@ -13,18 +14,8 @@ const SearchAndActions: React.FC<SearchAndActionsProps> = ({
   onDownload,
   searchPlaceholder,
   breadcrumbs,
+  searchValue,
 }) => {
-  const [searchQuery, setSearchQuery] = React.useState("");
-
-  const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setSearchQuery(event.target.value);
-  };
-
-  const handleSearchSubmit = (event: React.FormEvent) => {
-    event.preventDefault();
-    onSearch(searchQuery);
-  };
-
   return (
     <Row
       configurationName="between"
@@ -42,16 +33,16 @@ const SearchAndActions: React.FC<SearchAndActionsProps> = ({
       <Row
         configurationName="center"
         component="form"
-        onSubmit={handleSearchSubmit}
+        // onSubmit={handleSearchSubmit}
       >
         <Input
           configurationName="outlinedSm"
           placeholder={searchPlaceholder}
-          value={searchQuery}
-          onChange={handleSearchChange}
+          value={searchValue}
+          onChange={onSearch}
           style={{ marginRight: 8 }}
         />
-        <Button configurationName="solidMd" onClick={onDownload}>
+        <Button configurationName="SolidLgPrimary" onClick={onDownload}>
           Download
         </Button>
       </Row>

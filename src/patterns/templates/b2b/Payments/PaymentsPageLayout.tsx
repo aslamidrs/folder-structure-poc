@@ -12,11 +12,18 @@ import { Tabs } from "../../../molecules";
 
 interface IPaymentsTemplateProps {
   loading: boolean;
-  handleSearch: (query: string) => void;
+  handleSwitchChange: (
+    event: React.SyntheticEvent | null,
+    value: string | number | null
+  ) => void;
+  handleSearch: (e: React.ChangeEvent<HTMLInputElement>) => void;
   handleDownload: () => void;
   currentSwitchBtn: string;
   currentTab: number;
-  handleTabChange: (tab: string) => void;
+  handleTabChange: (
+    event: React.SyntheticEvent | null,
+    value: string | number | null
+  ) => void;
   tabs: any;
   breadcrumbs: any;
   tabList: { key: string | number; label: string }[];
@@ -27,10 +34,11 @@ interface IPaymentsTemplateProps {
     options: { value: string; label: string }[];
   }[];
   title: string;
-  handleTabsChange: (
-    event: React.SyntheticEvent | null,
-    value: string | number | null
-  ) => void;
+  searchValue: string;
+  paginationModel: {
+    pageSize: number;
+    page: number;
+  };
 }
 
 const PaymentsTemplate: React.FC<IPaymentsTemplateProps> = (
@@ -46,7 +54,7 @@ const PaymentsTemplate: React.FC<IPaymentsTemplateProps> = (
             rows={panel.rows}
             columns={panel.columns}
             pageSizeOptions={[5, 10, 20]}
-            paginationModel={{ pageSize: 10, page: 0 }}
+            paginationModel={props.paginationModel}
             autoHeight
           />
         ),
@@ -60,23 +68,23 @@ const PaymentsTemplate: React.FC<IPaymentsTemplateProps> = (
       boxShadow={1}
       bgcolor="background.paper"
     >
-      <Button configurationName="SolidLgDanger">TestBtn</Button>
       <Text level="h1">{props.title}</Text>
       <SearchAndActions
         breadcrumbs={props.breadcrumbs}
         onSearch={props.handleSearch}
         onDownload={props.handleDownload}
         searchPlaceholder="PO Number, Retailer name"
+        searchValue={props.searchValue}
       />
       <Row configurationName="start" marginBottom={3}>
         <TabNavigation
           tabs={props.tabs}
           currentTab={props.currentSwitchBtn}
-          onTabChange={props.handleTabChange}
+          onTabChange={props.handleSwitchChange}
         />
       </Row>
       <Tabs
-        onChange={props.handleTabsChange}
+        onChange={props.handleTabChange}
         filters={props.filters}
         tabList={props.tabList}
         currentTab={props.currentTab}

@@ -12,14 +12,15 @@ const Payments = () => {
     currentTab,
     currentSwitchBtn,
     loading,
+    handleSwitchChange,
+    handleSearch,
+    searchValue,
   } = payments();
 
   return (
     <PaymentsTemplate
       title="Payments"
-      handleSearch={function (query: string): void {
-        throw new Error("Function not implemented.");
-      }}
+      handleSearch={handleSearch}
       handleDownload={function (): void {
         throw new Error("Function not implemented.");
       }}
@@ -32,6 +33,8 @@ const Payments = () => {
       tabPanels={tabPanels}
       filters={filters}
       loading={loading}
+      handleSwitchChange={handleSwitchChange}
+      searchValue={searchValue}
     />
   );
 };
